@@ -1,4 +1,5 @@
-//array Destructuring
+{
+    //array Destructuring
 
 const myFriends2 = ["rakib", "akib", "apu"];
 const [,bestFriend] =myFriends2
@@ -7,8 +8,12 @@ const [,bestFriend] =myFriends2
 // object Destructuring
 
 const myFriends  = {
-    frnd1:"rakib",
-    frnd2 :"akib", 
-    frid3 : "apu"
+    friend1:"rakib",
+    friend2 :"akib", 
+    friend3 : "apu"
 }
-const{frnd2}=myFriends
+const{friend2}=myFriends
+
+
+
+}
